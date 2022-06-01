@@ -111,16 +111,26 @@ public class Recept extends SastojakRecepta {
         return rec;
     }
 
-    //Nije jos zavrsen 5. zadatak
-    public static ArrayList<Recept> filtrifajRecepte(ArrayList<Recept> list, int tezinarecepta){
-       int br = 0;
-        for (Recept s : list) {
+    public static ArrayList<Recept> filtrifajRecepte(ArrayList<Recept> recepti, int tezinarecepta){
+        ArrayList<Recept> noviRecept = new ArrayList<>();
+        for (Recept s : recepti) {
             if(s.getTezinaRecepta() == tezinarecepta){
-                br++;
+                noviRecept.add(s);
             }
         }
-        ArrayList<Recept> lista = new ArrayList<>(br);
-        return lista;
+        return noviRecept;
+    }
+
+    public static ArrayList<Recept> filtrifajRecepte(ArrayList<Recept> recepti, int[] tezinarecepta){
+        ArrayList<Recept> noviRecept = new ArrayList<>();
+        for (Recept s : recepti) {
+            for (int i = 0; i < tezinarecepta.length ; i++) {
+                if(s.getTezinaRecepta() == tezinarecepta[i]){
+                    noviRecept.add(s);
+                }
+            }
+        }
+        return noviRecept;
     }
 
     @Override

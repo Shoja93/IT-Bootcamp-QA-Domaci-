@@ -60,5 +60,15 @@ public class Main {
         lista.add(rucak3);
         lista.add(rucak4);
 
+        for(Recept s : Recept.filtrifajRecepte(lista, 3)){
+            System.out.println(s.getNazivRecepta());
+        }
+        System.out.println("-----------------");
+        int[] niz = {1,2};
+        for(Recept a : Recept.filtrifajRecepte(lista,niz)){
+            System.out.println(a.getNazivRecepta());
+        }
+
+
     }
 }
