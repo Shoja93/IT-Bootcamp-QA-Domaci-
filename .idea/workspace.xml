@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec3f97e-745f-489c-9243-aee731b582f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Nasledjivanje/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nasledjivanje/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nasledjivanje/Recept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nasledjivanje/Recept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,17 +32,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nikola/IdeaProjects/ IT-Bootcamp-QA-Domaci/src/Nasledjivanje&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Nikola/IdeaProjects/ IT-Bootcamp-QA-Domaci/src"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nikola\IdeaProjects\ IT-Bootcamp-QA-Domaci\src" />
       <recent name="C:\Users\Nikola\IdeaProjects\ IT-Bootcamp-QA-Domaci\src\Nasledjivanje" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Domaci8nedeljanedelja.Autobus.TestAutobus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Domaci8nedeljanedelja.Autobus.TestAutobus" />
+      <module name=" IT-Bootcamp-QA-Domaci" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Domaci8nedeljanedelja.Autobus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Domaci8nedeljanedelja.Autobus.TestAutobus" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,5 +76,16 @@
       <updated>1654078286271</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
