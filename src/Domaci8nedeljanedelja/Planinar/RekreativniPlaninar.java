@@ -57,7 +57,6 @@ public class RekreativniPlaninar extends Planinar {
         sb.append("Rekreativac, id : ").append(getId()).append("\n");
         sb.append("\time: ").append(getIme()).append(" ").append(getPrezime()).append("\n");
         sb.append("Okrug: ").append(getOkrug()).append("\n");
-        sb.append(uspesanUspon(new Planina()));
         return sb.toString();
     }
 }

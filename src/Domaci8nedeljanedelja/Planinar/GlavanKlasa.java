@@ -11,7 +11,7 @@ public class GlavanKlasa {
     }
 
     public static void main(String[] args) {
-        Planina zlatibor = new Planina("Zlatibor", "Srbija", 4500);
+        Planina zlatibor = new Planina("Zlatibor", "Srbija", 4000);
 
         Planinar pl1 = new RekreativniPlaninar(1,"Nikola", "Sojic", 10,"Zlatiborski",3000);
         Planinar pl2 = new RekreativniPlaninar(2, "Marko", "Markovic", 15,"Jablanicki", 2000);
@@ -25,10 +25,10 @@ public class GlavanKlasa {
 
         for (int i = 0; i <niz.length ; i++) {
             System.out.println(niz[i]);
+            System.out.println(niz[i].uspesanUspon(zlatibor));
             System.out.println();
         }
         System.out.println("Ukupna zbir svih clanarina je: "+ ukupnaClanairna(niz));
-
 
     }
 }

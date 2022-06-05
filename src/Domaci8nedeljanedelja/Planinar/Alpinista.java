@@ -42,7 +42,6 @@ public class Alpinista extends Planinar {
         sb.append("Alpinista, id : ").append(getId()).append("\n");
         sb.append("ime: ").append(getIme()).append(" ").append(getPrezime()).append("\n");
         sb.append("Broj poena: ").append(getPoena()).append("\n");
-        sb.append(uspesanUspon(new Planina()));
         return sb.toString();
     }
 }
